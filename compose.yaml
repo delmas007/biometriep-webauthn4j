@@ -1,0 +1,9 @@
+services:
+  postgres:
+    image: 'postgres:latest'
+    environment:
+      - 'POSTGRES_DB=biometrie'
+      - 'POSTGRES_PASSWORD=biometrie'
+      - 'POSTGRES_USER=biometrie'
+    ports:
+      - '5432'
